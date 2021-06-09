@@ -1,0 +1,39 @@
+.container {
+  width: 600px;
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.total {
+  margin: 0;
+  padding: 20px 0;
+
+  color: rgb(6, 51, 18);
+}
+.goodFeedbackStyle {
+  composes: total;
+
+  color: rgb(4, 161, 46);
+}
+.neutralFeedbackStyle {
+  composes: total;
+
+  color: rgb(74, 184, 235);
+}
+.badFeedbackStyle {
+  composes: total;
+
+  color: rgb(245, 44, 9);
+}
+.percentage {
+  color: rgb(6, 51, 18);
+}
+/* .positiveRate {
+  color: rgb(13, 175, 56);
+}
+.negativeRate {
+  color: rgb(245, 44, 9);
+} */
